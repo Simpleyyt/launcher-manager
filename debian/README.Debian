@@ -1,0 +1,7 @@
+launcher-manager for Debian
+---------------------------
+
+Launcher Manager is a tool to edit launcher.
+Using this tool, you can easily add, remove and modify applet in launcher. You don't have to edit a .desktop file any more. This tool is write in Qt, which is an UI framework, so it would download and install libqt4-dev by its own while installing. There is still some bug, such as failing to find the icon of some applet. In addition, before you modify the applet launcher, the tool will make a backup, so you don't have to worry about data corruption.
+
+ -- Snail <simpleyyt@gmail.com>  Mon, 02 Dec 2013 21:30:04 +0800

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Launcher Manager
+Name[en]=Launcher Manager
+Name[zh_CN]=应用管理器
+Comment=Manage the applet in launcher
+Comment[en]=Manager the applet in launcher
+Commnet[zh_CN]=管理启动器上的应用
+Exec=gksudo launcher-manager
+Icon=/usr/share/pixmaps/launcher-manager
+Type=Application
+Categories=Application;System;

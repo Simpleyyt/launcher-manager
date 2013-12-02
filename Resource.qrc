@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>images/list-add.png</file>
+        <file>images/list-remove.png</file>
+        <file>images/network-idle.png</file>
+        <file>images/network-offline.png</file>
+        <file>images/setting.png</file>
+        <file>images/system-log-out.png</file>
+        <file>images/system-search.png</file>
+        <file>images/view.png</file>
+        <file>images/view-refresh.png</file>
+        <file>images/pencil.png</file>
+        <file>images/previous.png</file>
+        <file>lang/en.qm</file>
+        <file>lang/zh_CN.qm</file>
+        <file>images/icon_64.png</file>
+    </qresource>
+</RCC>

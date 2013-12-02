@@ -1,0 +1,16 @@
+Source: launcher-manager
+Section: utils
+Priority: extra
+Maintainer: Yitao Yao (Snail) <simpleyyt@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), libqt4-dev, qt4-qmake
+Standards-Version: 3.9.2
+Homepage: https://github.com/Simpleyyt/launcher-manager
+#Vcs-Git: git://git.debian.org/collab-maint/launcher-manager.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/launcher-manager.git;a=summary
+
+Package: launcher-manager
+Architecture: any
+Version: 1.0
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-dev
+Description: Launcher Manager is a tool to edit launcher. 
+             Using this tool, you can easily add, remove and modify applet in launcher. You don't have to edit a .desktop file any more. This tool is write in Qt, which is an UI framework, so it would download and install libqt4-dev by its own while installing. There is still some bug, such as failing to find the icon of some applet. In addition, before you modify the applet launcher, the tool will make a backup, so you don't have to worry about data corruption.
