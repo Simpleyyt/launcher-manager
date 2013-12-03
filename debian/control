@@ -10,7 +10,7 @@ Homepage: https://github.com/Simpleyyt/launcher-manager
 
 Package: launcher-manager
 Architecture: any
-Version: 1.0
+Version: 1.1
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-dev
-Description: Launcher Manager is a tool to edit launcher. 
+Description: Launcher Manager is a tool to manage the applet in launcher. 
              Using this tool, you can easily add, remove and modify applet in launcher. You don't have to edit a .desktop file any more. This tool is write in Qt, which is an UI framework, so it would download and install libqt4-dev by its own while installing. There is still some bug, such as failing to find the icon of some applet. In addition, before you modify the applet launcher, the tool will make a backup, so you don't have to worry about data corruption.
