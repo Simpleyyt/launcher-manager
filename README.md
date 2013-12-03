@@ -1,4 +1,4 @@
-launcher-manager
+Launcher Manager
 ================
 
 Launcher Manager is a tool to manager the applet in launcher.  
